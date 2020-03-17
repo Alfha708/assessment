@@ -1,0 +1,38 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    /*background-color: #04A6EB;*/
+    color: #FDFFFF;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background: linear-gradient(225deg, rgb(230, 43, 230), rgb(5, 5, 194));
+    background-repeat: no-repeat;
+}
+
+button {
+    padding: 3px 20px;
+    background-color: #337AB7;
+    border-style: none;
+    color: #FDFFFF;
+}
+
+input {
+    height: 20px;
+}
+
+#sample {
+    padding-bottom: bottom;
+}
+
+h1 {
+    color: #acb6e5; /*非対応のブラウザでの文字色を設定*/
+    background: -webkit-linear-gradient(27deg, #acb6e5, #86fde8);
+    -webkit-background-clip: text; /*テキストでくり抜く*/
+    -webkit-text-fill-color: transparent; /*くり抜いた部分は背景を表示*/
+}
+h3 {
+    border-bottom: 4px solid #2097B6;
+}
